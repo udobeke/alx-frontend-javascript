@@ -1,8 +1,8 @@
 export default function iterateThroughObject(reportWithIterator) {
-  let result = "";
+  let result = '';
 
   for (const item of reportWithIterator) {
-    result += item + " | ";
+    result += `${item} | `;
   }
 
   // Remove the trailing ' | ' from the result
