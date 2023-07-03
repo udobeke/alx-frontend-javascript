@@ -2,7 +2,7 @@
 /* eslint-disable import/no-unresolved */
 /* eslint-disable jest/require-hook */
 /* eslint-disable no-unused-vars */
-import HolbertonCourse from './0x02-ES6_classes/2-hbtn_course';
+import HolbertonCourse from '../2-hbtn_course';
 
 const c1 = new HolbertonCourse('ES6', 1, ['Bob', 'Jane']);
 console.log(c1.name);
